@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@reservoir0x/reservoir-kit-client": ["./packages/client/src"],
+      "@reservoir0x/reservoir-kit-ui": ["./packages/ui/src"]
+    }
+  }
+}
